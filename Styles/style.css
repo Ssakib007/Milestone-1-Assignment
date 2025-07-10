@@ -35,7 +35,7 @@ button:hover{
 /* header */
 
 header{
-    width: 1440px;
+    width: 1240px;
     height: 698px;
     margin: 0 auto;
     background-image: url(../Assets/Hero-bg.png);
@@ -82,5 +82,36 @@ nav ul li{
 }
 
 .bg-color{
-    color: rgba(214, 221, 237, 1);;
+    background-color: #F6F8FF;
+    width: 1540px;
+    height: 3000px;
+    margin: 0 auto;
+}
+
+/* action */
+
+.action{
+    display: flex;
+    gap: 200px;
+    width: 1240px;
+    height: 428px;
+    justify-content: space-around;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-subtitle{
+    font-size: 24px;
+    font-weight: 600px;
+    color: rgba(37, 36, 50, 0.5)
+}
+
+.action-image img{
+    border-radius: 48px;
 }
