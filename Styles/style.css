@@ -115,3 +115,48 @@ nav ul li{
 .action-image img{
     border-radius: 48px;
 }
+
+/* productive users */
+
+.productive-users{
+    width: 1240px;
+    height: 356px;
+    background-color: #E8E9FF;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.productive-users-title{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.productive-users-data{
+    display: flex;
+    padding-top: 0px;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    margin-top: 0px;  
+}
+
+.pud1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.pud2{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 0px;
+    margin-top: 0px;
+}
