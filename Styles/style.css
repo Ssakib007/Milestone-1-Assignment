@@ -26,6 +26,17 @@
     padding: 15px 40px;
 }
 
+.btn-2{
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 40px;
+    width: 500px;
+}
+
 button:hover{
     background-color: #3D5387;
     color: black;
@@ -160,3 +171,56 @@ nav ul li{
     padding-top: 0px;
     margin-top: 0px;
 }
+
+/* lets get in touch */
+
+form{
+    display: block;
+    margin-top: 150px;
+}
+
+.form{
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.form-column-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.form-column{
+    height: 64px;
+    width: 461px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.form-column-text{
+    height: 100px;
+    width: 461px;
+    border: 1px solid #D6DDED ;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    padding: 20px 20px;
+    margin-bottom: 24px; 
+    font-size: 16px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
