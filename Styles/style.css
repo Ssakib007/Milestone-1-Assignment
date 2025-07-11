@@ -24,6 +24,9 @@
     font-weight: bold;
     font-size: 16px;
     padding: 15px 40px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .btn-2{
@@ -35,9 +38,16 @@
     font-size: 16px;
     padding: 15px 40px;
     width: 500px;
+    cursor: pointer;
 }
 
-button:hover{
+.btn-2:hover{
+    background-color: #3D5387;
+    color: black;
+    transform: scale(1.1);
+}
+
+.btn-1:hover{
     background-color: #3D5387;
     color: black;
     transform: scale(1.1);
