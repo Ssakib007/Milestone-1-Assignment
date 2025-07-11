@@ -346,10 +346,13 @@ label{
 
 footer{
     text-align: center;
+    justify-content: center;
     width: 531px;
     height: 221px;
     margin: 0 auto;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-title{
