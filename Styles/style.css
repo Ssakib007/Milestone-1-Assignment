@@ -55,6 +55,13 @@
     color: black;
     transform: scale(1.1);
 }
+ /* main */
+.bg-color{
+    background-color: #F6F8FF;
+    width: 1540px;
+    height: 3000px;
+    margin: 0 auto;
+}
 
 /* header */
 
@@ -105,12 +112,7 @@ nav ul li{
     
 }
 
-.bg-color{
-    background-color: #F6F8FF;
-    width: 1540px;
-    height: 3000px;
-    margin: 0 auto;
-}
+
 
 /* action */
 
@@ -261,7 +263,7 @@ nav ul li{
     background-color: white;
     max-width: 1240px;
     margin: 0 auto;
-    height: 697px;
+    height: 797px;
     border-radius: 15px;
     align-items: center;
     display: flex;
@@ -273,7 +275,7 @@ nav ul li{
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
     margin-bottom: 0px;
  }
 
@@ -347,12 +349,13 @@ label{
 footer{
     text-align: center;
     justify-content: center;
-    width: 531px;
+    width: 1540px;
     height: 221px;
     margin: 0 auto;
     padding-bottom: 100px;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .footer-title{
