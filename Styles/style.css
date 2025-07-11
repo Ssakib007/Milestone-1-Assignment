@@ -133,7 +133,9 @@ nav ul li{
 .action-subtitle{
     font-size: 24px;
     font-weight: 600px;
-    color: rgba(37, 36, 50, 0.5)
+    color: rgba(37, 36, 50, 0.5);
+    text-shadow: 0px 4px 6px rgba(137, 135, 161, 1);
+    
 }
 
 .action-image img{
